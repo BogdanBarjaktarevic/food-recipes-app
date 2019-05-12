@@ -1,0 +1,8 @@
+.ingredient-list {
+  padding: 0 5px !important;
+}
+
+.ingredient-list i {
+  cursor: pointer;
+  font-size: 1.2em;
+}

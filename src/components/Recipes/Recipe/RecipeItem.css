@@ -1,0 +1,14 @@
+.recipe-item {
+  margin: 5px 0 !important;
+  border-radius: 0;
+  text-align: center;
+}
+
+.recipe-item img {
+  max-height: 53px;
+}
+
+.recipe-item .recipe-item-header {
+  margin: 5px;
+  color: rgb(65, 131, 196);
+}
