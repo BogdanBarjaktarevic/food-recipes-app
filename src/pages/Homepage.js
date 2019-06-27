@@ -1,5 +1,5 @@
 import React from "react";
-import {connect} from 'react-redux';
+import { connect } from "react-redux";
 import Bookmarks from "../components/Recipes/Bookmarks/Bookmarks";
 import RecipeCategories from "../components/Recipes/Recipe/RecipeCategories";
 import RecipeDetails from "../components/Recipes/Recipe/RecipeDetails";
@@ -11,8 +11,7 @@ import Icon from "../components/UI/Icons/Icon/Icon";
 import SearchBar from "../components/UI/SearchBar/SearchBar";
 import Heading from "../components/UI/Headings/HeadingThree/Heading";
 
-
-const Homepage = (props) => {
+export const Homepage = props => {
   return (
     <div
       className="ui container ui vertical stripe segment"
@@ -22,7 +21,7 @@ const Homepage = (props) => {
         <div className="row">
           <div className="three wide middle aligned column center aligned">
             <Icon attachClass="utensils circular orange big icon" />
-            <Bookmarks recipes={props.likedRecipes} loading={props.loading}/>
+            <Bookmarks recipes={props.likedRecipes} loading={props.loading} />
           </div>
           <div className="nine wide center aligned column">
             <SearchBar />
@@ -53,7 +52,7 @@ const Homepage = (props) => {
             >
               Recipes
             </HeadingAndIcon>
-            <RecipeList recipes={props.recipes} loading={props.loading}/>
+            <RecipeList recipes={props.recipes} loading={props.loading} />
           </div>
           <div className="nine wide center aligned column">
             <RecipeDetails />
@@ -75,11 +74,11 @@ const Homepage = (props) => {
 };
 
 const mapStateToProps = state => {
-    return {
-      recipes: state.recipes,
-      loading: state.loading.recipes,
-      likedRecipes: state.likes
-    };
+  return {
+    recipes: state.recipes,
+    loading: state.loading.recipes,
+    likedRecipes: state.likes
   };
+};
 
 export default connect(mapStateToProps)(Homepage);
