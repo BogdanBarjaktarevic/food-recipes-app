@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import Icon from "../UI/Icons/Icon/Icon";
+import Icon from "./Icon";
 
 it("renders Homepage", () => {
   const wrapped = shallow(<Icon />);

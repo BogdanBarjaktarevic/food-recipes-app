@@ -30,7 +30,7 @@ const categories = [
   { title: "World Cuisine", src: cuisine, term: "cuisine" }
 ];
 
-const RecipeCategories = props => {
+export const RecipeCategories = props => {
   let renderItem = categories.map(el => {
     return (
       <div

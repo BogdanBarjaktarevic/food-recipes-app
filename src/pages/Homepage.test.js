@@ -1,16 +1,16 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { Homepage } from "../Homepage";
-import SearchBar from "../../components/UI/SearchBar/SearchBar";
-import Bookmarks from "../../components/Recipes/Bookmarks/Bookmarks";
-import Heading from "../../components/UI/Headings/HeadingThree/Heading";
-import RecipeCategories from "../../components/Recipes/Recipe/RecipeCategories";
-import HeadingAndIcon from "../../components/UI/HeadingAndIcon/HeadingAndIcon";
-import RecipeList from "../../components/Recipes/RecipeList";
-import RecipeDetails from "../../components/Recipes/Recipe/RecipeDetails";
-import ShoppingList from "../../components/Shopping/ShoppingList/ShoppingList";
-import TopRatedRecipes from "../../components/Recipes/Recipe/TopRatedRecipes";
-import Icon from "../../components/UI/Icons/Icon/Icon";
+import { Homepage } from "./Homepage";
+import SearchBar from "../components/UI/SearchBar/SearchBar";
+import Bookmarks from "../components/Recipes/Bookmarks/Bookmarks";
+import Heading from "../components/UI/Headings/HeadingThree/Heading";
+import RecipeCategories from "../components/Recipes/Recipe/RecipeCategories";
+import HeadingAndIcon from "../components/UI/HeadingAndIcon/HeadingAndIcon";
+import RecipeList from "../components/Recipes/RecipeList";
+import RecipeDetails from "../components/Recipes/Recipe/RecipeDetails";
+import ShoppingList from "../components/Shopping/ShoppingList/ShoppingList";
+import TopRatedRecipes from "../components/Recipes/Recipe/TopRatedRecipes";
+import Icon from "../components/UI/Icons/Icon/Icon";
 
 let wrapped;
 

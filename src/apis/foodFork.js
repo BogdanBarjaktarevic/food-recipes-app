@@ -8,13 +8,13 @@ import axios from "axios";
 // const KEY5 = '297bfcaa3405061d0ccd44ebf21ac537';
 // const KEY6 = '19557f70c05c430f3105ef1cd7c06c32';
 // const KEY7 = 'f418858cc26e7b28ce1d839172db068d';
-const KEY8 = '39c7156c3e43e6b1d7cd4847cef7c71f';
-// const KEY9 = '15603a72df74be24d0037adc1cf9ca5c';
+// const KEY8 = '39c7156c3e43e6b1d7cd4847cef7c71f';
+const KEY9 = '15603a72df74be24d0037adc1cf9ca5c';
 // const KEY10 = "0081056c22c4eb7a3828af547f55f5e5";
 
 export default axios.create({
   baseURL: "https://www.food2fork.com/api",
   params: {
-    key: KEY8
+    key: KEY9
   }
 });
